@@ -17,6 +17,7 @@ with Terraform on AWS. This approach ensured the application would be highly ava
 -->High availability and scalability
 -->Faster deployment and time-to-market
 -->Improved application performance
+-->secure and centralized secrets management with Vault
 -->Reduced production errors and manual intervention
 -->Frequent releases and better customer experience
 
@@ -27,6 +28,7 @@ with Terraform on AWS. This approach ensured the application would be highly ava
 - Continuous Integration & Deployment with **Jenkins**  
 - Containerization using **Docker**  
 - Deployment orchestration via **Kubernetes**  
+- Secrets management with HashiCorp Vault
 - Configuration management with **Ansible**  
 - Monitoring and observability using **Prometheus** and **Grafana**
 
@@ -36,16 +38,18 @@ with Terraform on AWS. This approach ensured the application would be highly ava
 The architecture includes:
 1. AWS VPC, subnets, security groups, and EC2 instances  
 2. Application deployment in Docker containers  
-3. Kubernetes cluster for container orchestration  
-4. Jenkins CI/CD pipelines for building, testing, and deployment  
-5. Ansible for automated deployment and server configuration  
-6. Prometheus and Grafana for monitoring CPU, memory, network, and app health  
+3. Kubernetes cluster for container orchestration 
+4. HashiCorp Vault for Secrets management
+5. Jenkins CI/CD pipelines for building, testing, and deployment  
+6. Ansible for automated deployment and server configuration  
+7. Prometheus and Grafana for monitoring CPU, memory, network, and app health  
 
 ## Tools & Technologies
 - **Cloud & Infrastructure:** AWS (EC2, VPC, Subnets, Security Groups, ALB, S3)  
 - **CI/CD:** Jenkins  
 - **Containers & Orchestration:** Docker, Kubernetes  
 - **Configuration Management:** Ansible  
+- **Secret Management: ** Hashicorp Vault
 - **Monitoring:** Prometheus, Grafana  
 - **Infrastructure as Code:** Terraform  
 - **Version Control:** GitHub  
