@@ -1,7 +1,7 @@
 **This project is a real case study**
 
-As a DevOps engineer, I was tasked by a retail company to design and implement an end-to-end solution. This involved provisioning AWS infrastructure with Terraform, building  
-CI/CD pipelines with Jenkins, containerizing applications with Docker, deploying on Kubernetes with Ansible, and monitoring the system using Prometheus and Grafana.
+As a DevOps engineer, I was tasked by a retail company to design and implement an end-to-end solution. This involved provisioning AWS infrastructure   
+with Terraform, building CI/CD pipelines with Jenkins, containerizing applications with Docker, deploying on Kubernetes with Ansible, and monitoring the system using Prometheus and Grafana.
 Due to privacy reasons, I can't upload the actual code publicly, but a sample Java project has been shared for usage. It is a maven project and has src and test folders created
 in it. It has a POM.xml file, which lists all the needed dependencies to execute this project.
 
