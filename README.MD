@@ -33,7 +33,7 @@ with Terraform on AWS. This approach ensured the application would be highly ava
 - Monitoring and observability using **Prometheus** and **Grafana**
 
 ## Architecture
-![Architecture Diagram](link-to-your-diagram.png)
+![Architecture Diagram](https://github.com/Soniaakhtar1690/Full-Stack-DevOps-Automation-AWS-Infrastructure-CI-CD-Containerization-Orchestration-Monitoring/blob/main/imagge.png)
 
 The architecture includes:
 1. AWS VPC, subnets, security groups, and EC2 instances  
